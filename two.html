@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<style>
+    .background{
+        background-color: transparent;
+        width: 600px;
+        height: 1060px;
+        margin: 0 auto;
+        background-image: url(images/Base.png);
+    }
+    .index{
+        display: flex;
+        background-color: transparent;
+        width: 600px;
+        height: 101px;
+        /* background-image: url(images/Back.png); */
+        /* background-repeat: no-repeat; */
+
+    }
+    div span:nth-child(1){
+        
+        background-color: transparent;
+        margin: auto;
+        height: 101px;
+        width: 101px;
+        color: white;
+        font-size: 36px;
+        line-height: 101px;
+        text-align: center;
+    }
+    div span:nth-child(2)
+    {
+        
+        background-color: transparent;
+        height: 101px;
+        flex: 1;
+        color: white;
+        line-height: 101px;
+        text-align: center;
+        font-size: 35px;
+    }
+    div span:nth-child(3)
+    {
+        
+        background-color:transparent;
+        height: 101px;
+        width: 101px;
+    } 
+
+    .photo{
+        background-color: transparent;
+        height: 245px;
+    }
+.infor{
+    background-color: transparent;
+    height: 350px;
+}
+.firs {
+    background-color: transparent;
+    height: 87.5px;
+    line-height: 87.5px;
+    border-top: 10px;
+    border-color:black;
+    color: white;
+    margin-left: 101px;
+    font-size: 22px;
+}
+.second {
+    background-color: transparent;
+    height: 87.5px;
+    line-height: 87.5px;
+    border-top: 10px;
+    border-color:black;
+    color: white;
+    margin-left: 101px;
+    font-size: 22px;
+}
+.email {
+    background-color: transparent;
+    height: 87.5px;
+    line-height: 87.5px;
+    border-top: 10px;
+    border-color:black;
+    color:white;
+    margin-left: 101px;
+    font-size: 22px;
+}
+.password {
+    background-color:transparent;
+    height: 87.5px;
+    line-height: 87.5px;
+    border-top: 10px;
+    border-color:black;
+    color: white;
+    margin-left: 101px;
+    font-size: 22px;
+}
+.button{
+    background-color: transparent;
+    height: 85px;
+    background-image: url(images/Button1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.end{
+    background-color: transparent;
+    height: 279px;
+}
+input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 5px white;
+    
+    background-color: transparent;
+} 
+.photoplus{
+height: 245px;
+margin: auto;
+width: 200px;
+background-color: transparent;
+}
+.photoposition{
+    position: relative;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+.rightcorner{
+    position: relative;
+    padding-top: 28%;
+    padding-left: 10%;
+}
+.leftcorner{
+    position: relative;
+    padding-top: 28%;
+    padding-left: 10%;
+}
+.normal{
+    width: 300px;
+    color: pink;
+    background-color: transparent;
+    font-size: 5px;
+    height: 20px;
+}
+.abnormal{
+    width: 300px;
+    color: green;
+    background-color: aqua;
+}
+.text{
+    color: black;
+    font-size: 33px;
+    text-align: center;
+    line-height: 85px;
+}
+a{
+    text-decoration: none;
+}
+</style>
+<body>
+    <div class="background">
+        <div class="index">
+            <span><a href="#"><img src="images/Back.png" class="leftcorner"></a></span>
+            <span > Sign  Up</span>
+            <span><a href="#"><img src="images/Info.png" class="rightcorner"></a></span>
+        </div>
+    <div class="photo" >
+        <div class="photoplus">
+        <a href="#"><img src="images/Photo.png" class="photoposition"></a></div> 
+    </div>
+    <div class="infor">
+        <div class="firs">Frist Name<input type="text" name="bigname"></div>
+        <div class="second">Second Name<input type="text" name="smallname"></div>
+        <div class="email">Email Address<input type="text" name="qqcom"></div>
+        <div class="password">Password<input type="password" name="pwd"></div>
+    </div>
+    <div class="button"><p class="text"><a href="#">Sign Up</a></p></div>
+    <div class="end"><span class="normal">Already a member?</span>
+        <span class="abnormal" style="color: aquamarine;"><a href="#">Sign In</a></span>
+    </div>
+    </div>
+</body>
+</html>
